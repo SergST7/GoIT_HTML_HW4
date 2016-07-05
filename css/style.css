@@ -193,7 +193,9 @@ nav {
 
 .content-left,
 .content-right {
+  overflow: hidden;
   width: 210px;
+  height: 540px;
   background-color: #edeef0;
   float: left;
   padding-bottom: 20000px;
@@ -202,8 +204,9 @@ nav {
 
 .content-center {
   float: left;
+  overflow: hidden;
   width: 580px;
-  min-height: 540px;
+  height: 540px;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   background-color: #fff;
