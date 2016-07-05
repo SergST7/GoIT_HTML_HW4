@@ -45,7 +45,7 @@ a {
   display: block;
   float: left;
   width: 283px;
-  height: 164px;
+  height: 163px;
   padding: 100px 0 0 70px;
   background: url(../img/logo.png);
   color: inherit;
@@ -113,8 +113,8 @@ a {
 }
 
 .image {
-  border-top: 1px solid #b0d8e2;
-  border-bottom: 1px solid #b0d8e2;
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #138aa7;
 }
 
 
@@ -216,7 +216,9 @@ nav {
   position: relative;
   left: 80%;
   float: left;
+  min-height:540px;
   overflow: hidden;
+
 }
 
 .content-left {
