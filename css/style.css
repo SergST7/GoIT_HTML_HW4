@@ -191,8 +191,7 @@ nav {
   margin: 10px 15px;
 }
 
-.content-left,
-.content-right {
+.content-left, .content-right {
   overflow: hidden;
   width: 210px;
   height: 540px;
@@ -200,6 +199,12 @@ nav {
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
+}
+
+.content-left-wrapper, .content-right-wrapper {
+  -webkit-column-width: 210px;
+  column-width: 210px;
+  height: 100%;
 }
 
 .content-center {
@@ -210,6 +215,12 @@ nav {
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   background-color: #fff;
+}
+
+.content-center-wrapper {
+  -webkit-column-width: 580px;
+  column-width: 580px;
+  height: 100%;
 }
 
 
